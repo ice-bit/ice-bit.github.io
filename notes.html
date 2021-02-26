@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Marco Cetica">
+        <meta name="description" content="Marco Cetica's website">
+        <link rel='shortcut icon' type='image/x-icon' href='static/favicon.png' />
+        <title>Marco Cetica</title>
+
+        <!-- Custom font -->
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Custom CSS-->
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+      <main role="main" class="container">
+        <div class="container-fluid">
+          <img src="static/logo.jpg" id="logo">
+          <h2 class="text-center" id="title"><a href="index.html">Marco Cetica</a></h2>
+        </div>
+        <header class="toolbar">
+          <nav>
+            <ul>
+              <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+              <li><a href="projects.html"><i class="fas fa-flask"></i> Projects</a></li>
+              <li><a href="notes.html"><i class="fas fa-file-pdf"></i> Notes</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="ln"></div>
+
+        <div class="container desc">
+            In this section I have uploaded some of the notes that I took at school and that 
+            I think they're worth sharing.
+            They are written in Italian, in \(\LaTeX\) and they may be full of bullsh*ts, so use them 
+            at your own risk.
+
+            <div class="card w-75">
+                <div class="card-body">
+                    <h5 class="card-title">Calculus 1</h5>
+                    <p class="card-text">Limits, derivatives, real function analysis, integrals and series.</p>
+                    <a href="static/PDFs/calc1.pdf" class="btn btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
+                </div>
+            </div>
+            <div class="card w-75">
+                <div class="card-body">
+                    <h5 class="card-title">Linear Algebra</h5>
+                    <p class="card-text">Linear systems, vectors, linear maps, eigenvalues and eigenvectors and metric spaces.</p>
+                    <a href="static/PDFs/linalg.pdf" class="btn btn-primary"><i class="fas fa-file-pdf"></i> PDF</a>
+                </div>
+            </div>
+      </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/3a65893df7.js" crossorigin="anonymous"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="static/lib.js"></script>
+    </body>
+</html>
